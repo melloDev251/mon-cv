@@ -26,15 +26,15 @@
       background: url(../../media/map.jpg) no-repeat center top/cover;
       filter: grayscale(100%);
     }
-    &:after {
-      content: '';
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 30px;
-      background: url(../../media/shape.svg) no-repeat center /cover;
+    // &:after {
+    //   content: '';
+    //   width: 100%;
+    //   height: 100%;
+    //   position: absolute;
+    //   top: 30px;
+    //   background: url(../../media/shape.svg) no-repeat center /cover;
 
-    }
+    // }
   }
   .contactBox {
     grid-area: 2;
@@ -116,7 +116,7 @@
         padding: 0.7rem 0;
         box-shadow: $shadow;
         transform: scaleY(0);
-        transform-origin: center;
+        transform-origin: top;
         transition: .2s ease;
         transition: scale .1s;
 

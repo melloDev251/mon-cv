@@ -6,7 +6,7 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: 38% 1fr 1fr;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: 75% 25%;
     grid-template-areas: 
       "L E E"
       "O O H";
@@ -39,6 +39,7 @@
       }
       .frameworkDisplay {
         grid-area: F;
+        margin-top: -2rem;
       }
       h3 {
         margin-bottom: 0.3rem;
@@ -62,12 +63,12 @@
             width: 44%;
           }
         
-          &:nth-child(2):before,
+          &:nth-child(2):before, 
           &:nth-child(3):before {
             content:'';
             background: rgba(180, 179, 179, 0.507);
             position: absolute;
-            height: 146px;
+            height: 170px;
             width: 1px;
             transform: translate(9px, 19px);
           }
@@ -113,7 +114,8 @@
       grid-template-areas: 
         "1"
         "2"
-        "3";
+        "3"
+        "4";
       
       h3 {
         grid-area: 1;
@@ -135,6 +137,11 @@
       }
       .exp-2 {
         grid-area: 3;
+        margin-top: -4rem;
+      }
+      .exp-3{
+        grid-area: 4;
+        margin-top: -11rem;
       }
     }
     .otherSkills {

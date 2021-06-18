@@ -6,8 +6,8 @@ const Navigation = () => {
       <div className="sidebar">
         <div className="id">
           <div className="idContent">
-            <img src="./media/images.png" alt="profile-img" />
-            <h1>melloDev</h1>
+            <img src="./media/images.png" alt="profile-img" style={{width: '150px', height: '150px'}} />
+            <h3>mello Dev</h3>
           </div>
         </div>
 
@@ -80,7 +80,7 @@ const Navigation = () => {
             </li>
           </ul>
           <div className="signature">
-            <p>melloDev - 2021</p>
+            <a>melloDev - 2021</a>
           </div>
         </div>
       </div>
